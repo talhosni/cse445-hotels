@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+<!--1-->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor International Airport">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+<!--2-->
+    <Hotel Rating="4.7">
+        <Name>The Venetian Resort</Name>
+        <Phone>702-414-1000</Phone>
+        <Phone>866-659-9643</Phone>
+        <Address NearestAirport="Harry Reid International Airport">
+        <Number>3355</Number>
+        <Street>Las Vegas Blvd South</Street>
+        <City>Las Vegas</City>
+        <State>NV</State>
+        <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <!--3-->
+    <Hotel Rating="4.0">
+        <Name>MGM Grand Las Vegas</Name>
+        <Phone>702-891-1111</Phone>
+        <Phone>877-880-0880</Phone>
+        <Address NearestAirport="Harry Reid International Airport">
+            <Number>3799</Number>
+            <Street>S Las Vegas Blvd</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <!--4-->
+    <Hotel Rating="4.2">
+        <Name>Hilton Hawaiian Village Waikiki Beach Resort</Name>
+        <Phone>808-949-4321</Phone>
+        <Phone>800-445-8667</Phone>
+        <Address NearestAirport="Daniel K. Inouye International Airport">
+            <Number>2005</Number>
+            <Street>Kalia Road</Street>
+            <City>Honolulu</City>
+            <State>HI</State>
+            <Zip>96815</Zip>
+        </Address>
+        </Hotel>
+
+    <!--5-->
+    <Hotel Rating="4.6">
+        <Name>Wynn Las Vegas</Name>
+        <Phone>702-770-7000</Phone>
+        <Phone>888-320-7123</Phone>
+        <Address NearestAirport="Harry Reid International Airport">
+            <Number>3131</Number>
+            <Street>Las Vegas Blvd South</Street>
+            <City>Paradise</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <!--6-->
+    <Hotel Rating="4.1">
+        <Name>Disney’s Port Orleans Resort</Name>
+        <Phone>407-934-6000</Phone>
+        <Address NearestAirport="Orlando International Airport">
+            <Number>1251</Number>
+            <Street>Riverside Drive</Street>
+            <City>Lake Buena Vista</City>
+            <State>FL</State>
+            <Zip>32830</Zip>
+        </Address>
+    </Hotel>
+    <!--7-->
+    <Hotel Rating="4.0">
+        <Name>The Mirage</Name>
+        <Phone>702-791-7111</Phone>
+        <Address NearestAirport="Harry Reid International Airport">
+            <Number>3400</Number>
+            <Street>Las Vegas Blvd South</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <!--8-->
+    <Hotel Rating="4.3">
+        <Name>The Cosmopolitan of Las Vegas</Name>
+        <Phone>702-698-7000</Phone>
+        <Address NearestAirport="Harry Reid International Airport">
+            <Number>3708</Number>
+            <Street>Las Vegas Blvd South</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <!--9-->
+    <Hotel Rating="4.7">
+        <Name>White Stallion Ranch</Name>
+        <Phone>520-398-2701</Phone>
+        <Address NearestAirport="Tucson International Airport">
+            <Number>9251</Number>
+            <Street>West Wupatki Trail</Street>
+            <City>Tucson</City>
+            <State>AZ</State>
+            <Zip>85736</Zip>
+        </Address>
+    </Hotel>
+    <!--10-->
+    <Hotel>
+        <Name>Hotel San Carlos</Name>
+        <Phone>602-258-5545</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>202</Number>
+            <Street>North Central Avenue</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
