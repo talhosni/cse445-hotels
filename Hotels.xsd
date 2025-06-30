@@ -10,11 +10,11 @@
             <xs:sequence>
             <!--HOTEL ATTRIBUTES-->
               <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" maxOccurs="unbounded"/>
+              <xs:element name="Phone" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base ="xs:string">
                         <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
-                        </xs:restriction>
+                    </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="Address">
@@ -36,8 +36,8 @@
             <xs:attribute name="Rating" use="optional">
                 <xs:simpleType>
                     <xs:restriction base="double">
-                        <xs:minInclusive value="0.0">
-                        <xs:maxInclusive value="5.0">
+                        <xs:minInclusive value="0.0"/>
+                        <xs:maxInclusive value="5.0"/>
                     </xs:restriction>
               </xs:simpleType>
             </xs:attribute>
@@ -47,3 +47,4 @@
     </xs:complexType>
   </xs:element>
 </xs:schema>
+
