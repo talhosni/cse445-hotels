@@ -35,7 +35,7 @@
             <!--RATING OPT.-->
             <xs:attribute name="Rating" use="optional">
                 <xs:simpleType>
-                    <xs:restriction base="double">
+                    <xs:restriction base="xs:double">
                         <xs:minInclusive value="0.0"/>
                         <xs:maxInclusive value="5.0"/>
                     </xs:restriction>
@@ -47,4 +47,5 @@
     </xs:complexType>
   </xs:element>
 </xs:schema>
+
 
