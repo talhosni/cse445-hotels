@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--ROOT HOTELS PLURAL-->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+      <!--CHILD INDIVIDUAL HOTEL ELEMENT-->
+        <xs:element name="Hotel" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+            <!--HOTEL ATTRIBUTES-->
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Phone" maxOccurs="unbounded"/>
+                <xs:simpleType>
+                    <xs:restriction base ="xs:string">
+                        <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
+                        </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                  <!--ADDRESS ATTRIBUTES-->
+                    <xs:element name="Number" type="xs:int"/>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="State" type="xs:string"/>
+                    <xs:element name="Zip" type="xs:string"/>
+                  </xs:sequence>
+                  <!--NEAREST AIRPORT -->
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <!--RATING OPT.-->
+            <xs:attribute name="Rating" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="double">
+                        <xs:minInclusive value="0.0">
+                        <xs:maxInclusive value="5.0">
+                    </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
